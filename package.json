@@ -1,0 +1,16 @@
+{
+  "name": "Request-Intercept-Proxy",
+  "version": "0.1.0",
+  "description": "Simple HTTP proxy that can intercept requests",
+  "main": "app.js",
+  "scripts": {
+		"daemon": "npm install&&nodemon app",
+		"pull-daemon": "git pull&&npm install&&nodemon app"
+	},
+	"dependencies": {
+		"mongodb": ">= 1.4.8",
+		"request": ">= 2.40.0",
+		"express": ">= 4.7.1",
+		"custom-logger": ">= 0.3.0"
+	}
+}
